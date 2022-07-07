@@ -21,7 +21,7 @@
                     $('#cast').empty()
                     result.cast.forEach(cast => 
                         {
-                            $(cast).append(`<li>${cast}</li>`)
+                            $('#cast').append(`<li>${cast}</li>`)
                         })
                         $('img').attr('src', result.poster)
                 })
